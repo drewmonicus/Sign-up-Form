@@ -1,0 +1,111 @@
+
+
+.main-container {
+    display: flex;
+    background-color:black;
+}
+
+.image-container {
+    position: relative; /* Make the container relative for absolute positioning */
+    width: 35vw;
+}
+
+.image-container .stock-image {
+    width: 100%;
+}
+
+.logo {
+    position: absolute; /* Position the logo absolutely */
+    top:0px; /* Adjust top position as needed */
+    width: 35vw;
+    background-color: black;
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-text {
+    color: white;
+    align-self: center;
+    font-size: 50px;
+}
+
+.attribute {
+    position: absolute;
+    bottom: 5px;
+    left:40%;    
+}
+
+.form-container {
+    flex: 6;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.section {
+    flex: 1;
+}
+
+
+#top {
+    background-color: rgba(57,64,72,255);
+
+}
+
+#middle {
+    background-color: white;
+}
+
+#bottom {
+    background-color:rgba(57,64,72,255);
+
+}
+
+#my-form {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.section h1 {
+    padding-left:20px;
+}
+
+label {
+    width:38%;
+    padding:10px;
+}
+
+label input {
+    display:block;
+}
+
+.section#top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust the height as needed */
+}
+
+.section p {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+input {
+    width:200px;
+}
+
+button {
+    margin: 10px;   
+    width: 150px;
+    height:40px;  
+    font-weight: bold;
+    background-color:rgb(64,64,64);
+    color: white;
+    border-radius: 10px;
+}

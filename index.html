@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "styles.css">
+</head>
+<body>
+    <div class = "main-container">
+        <div class="image-container">
+            <img class ="stock-image" src = "stock.jpg">
+            <div class="logo">  
+                <img src ="odin-logo.png" height="100px">
+                <div class ="logo-text">ODIN</div>
+            </div>
+            <div class = "attribute">Design by <a href="https://www.freepik.com/">Freepik</a></div>
+        </div>
+        <div class="form-container">
+            <div class="section" id = "top">
+                <p>This is not a real online service, but sign up anyway. </p>
+            </div>
+            <div class="section" id = "middle">
+                <form id = "my-form">
+                    <label for="first_name">First Name:
+                        <input type="text" id="first_name" required>
+                    </label>
+                    <label for="last_name">Last Name:
+                        <input type="text" id="last_name" required>
+                    </label>
+                    <label for="email_address">Email Address:
+                        <input type="email" id="email_address" required>
+                        </label>
+                    <label for="phone_number">Phone number:
+                        <input type="text" id="phone_number" required>
+                    </label>
+                    <label for="password">Password:
+                        <input type="text" id="password" required>
+                    </label>
+                    <label for="confirm_password">Confirm Password:
+                        <input type="text" id="confirm_password" required>
+                    </label>
+                </form>
+            </div>
+            <div class="section" id = "bottom">
+                <button type = "submit" form="my-form">CREATE ACCOUNT</button>
+                <p>Already have an account? <a href="">Log in</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
